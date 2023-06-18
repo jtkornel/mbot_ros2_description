@@ -49,50 +49,6 @@
         <state_interface name="velocity"/>
         <state_interface name="acceleration"/>
       </joint>
-      <joint name="${prefix}joint3">
-        <command_interface name="position">     <!-- Add/Remove interfaces as needed -->
-          <param name="min">-1</param>
-          <param name="max">1</param>
-        </command_interface>
-        <state_interface name="position">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="velocity"/>
-        <state_interface name="acceleration"/>
-      </joint>
-      <joint name="${prefix}joint4">
-        <command_interface name="position">     <!-- Add/Remove interfaces as needed -->
-          <param name="min">-1</param>
-          <param name="max">1</param>
-        </command_interface>
-        <state_interface name="position">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="velocity"/>
-        <state_interface name="acceleration"/>
-      </joint>
-      <joint name="${prefix}joint5">
-        <command_interface name="position">     <!-- Add/Remove interfaces as needed -->
-          <param name="min">-1</param>
-          <param name="max">1</param>
-        </command_interface>
-        <state_interface name="position">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="velocity"/>
-        <state_interface name="acceleration"/>
-      </joint>
-      <joint name="${prefix}joint6">
-        <command_interface name="position">     <!-- Add/Remove interfaces as needed -->
-          <param name="min">-1</param>
-          <param name="max">1</param>
-        </command_interface>
-        <state_interface name="position">
-          <param name="initial_value">0.0</param>
-        </state_interface>
-        <state_interface name="velocity"/>
-        <state_interface name="acceleration"/>
-      </joint>
       <sensor name="tcp_fts_sensor">            <!-- Remove/change sensors as needed -->
         <state_interface name="fx"/>
         <state_interface name="fy"/>

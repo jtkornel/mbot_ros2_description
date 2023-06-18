@@ -13,9 +13,6 @@
   <xacro:include filename="$(find mbot_description)/urdf/mbot_ranger_dashing_raptor/mbot_ranger_dashing_raptor_macro.xacro"/>
   <xacro:include filename="$(find mbot_description)/urdf/mbot_ranger_dashing_raptor/mbot_ranger_dashing_raptor_macro.ros2_control.xacro"/>
 
-  <!-- create link fixed to the "world" -->
-  <link name="world" />
-
   <!-- Load robot's macro with parameters -->
   <!-- set prefix if multiple robots are used -->
   <xacro:mbot_ranger_dashing_raptor prefix="$(arg prefix)" parent="world" >

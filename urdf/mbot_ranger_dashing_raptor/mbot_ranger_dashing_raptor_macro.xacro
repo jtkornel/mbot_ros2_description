@@ -16,6 +16,7 @@
           <box size="0.025 0.125 0.025" />
 <!--           <mesh filename="package://mbot_description/meshes/mbot_ranger_dashing_raptor/visual/base_link.dae" /> -->
         </geometry>
+        <material name="blue" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
@@ -36,6 +37,7 @@
           <box size="0.14 0.125 0.025" />
 <!--           <mesh filename="package://mbot_description/meshes/mbot_ranger_dashing_raptor/visual/base_link.dae" /> -->
         </geometry>
+        <material name="blue" />
       </visual>
       <collision>
         <origin xyz="0.07 0 0" rpy="0 0 0" />
@@ -46,7 +48,7 @@
       </collision>
     </link>
 
-    <!-- left  wheel -->
+    <!-- caster  wheel -->
     <link name="${prefix}caster_wheel">
       <!-- Default inertial for Gazebo/Ingnition - copy and edit block from 'common.xacro'
            to get more realistic behaviour-->
@@ -57,6 +59,7 @@
           <sphere radius="0.01" />
 <!--           <mesh filename="package://mbot_description/meshes/mbot_ranger_dashing_raptor/visual/left_wheel.dae" /> -->
         </geometry>
+        <material name="black" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
@@ -78,6 +81,7 @@
           <cylinder length="0.016" radius="0.0325" />
 <!--           <mesh filename="package://mbot_description/meshes/mbot_ranger_dashing_raptor/visual/left_wheel.dae" /> -->
         </geometry>
+        <material name="black" />
       </visual>
       <collision>
         <origin xyz="0 0.008 0" rpy="0 ${pi/2} ${pi/2}" />
@@ -98,6 +102,7 @@
           <cylinder length="0.016" radius="0.0325" />
 <!--           <mesh filename="package://mbot_description/meshes/mbot_ranger_dashing_raptor/visual/right_wheel.dae" /> -->
         </geometry>
+        <material name="black" />
       </visual>
       <collision>
         <origin xyz="0 -0.008 0" rpy="0 ${pi/2} ${pi/2}" />

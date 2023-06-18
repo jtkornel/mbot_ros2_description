@@ -10,6 +10,22 @@
   <xacro:arg name="sim_gazebo" default="false" />
   <xacro:arg name="simulation_controllers" default="" />
 
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
+
+  <material name="orange">
+    <color rgba="1 0.3 0.1 1"/>
+  </material>
+
+  <material name="blue">
+    <color rgba="0.2 0.2 1 1"/>
+  </material>
+
+  <material name="black">
+    <color rgba="0 0 0 1"/>
+  </material>
+
   <xacro:include filename="$(find mbot_description)/urdf/mbot_ranger_dashing_raptor/mbot_ranger_dashing_raptor_macro.xacro"/>
   <xacro:include filename="$(find mbot_description)/urdf/mbot_ranger_dashing_raptor/mbot_ranger_dashing_raptor_macro.ros2_control.xacro"/>
 

@@ -60,6 +60,7 @@ def generate_launch_description():
             "prefix:=",
             prefix,
             " ",
+            "sim_gazebo_classic:=true",
         ]
     )
 
